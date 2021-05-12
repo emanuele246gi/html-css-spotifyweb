@@ -4,29 +4,34 @@
     box-sizing: border-box;
 }
 
+.container{
+    color: white;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 
 .line{
-    min-height: 15vh;
+    min-height: 10vh;
     padding: 10px;
     background-color: rgb(14, 14, 14);
 }
 
 .box{
-    min-height: 100vh;
+    min-height: 75vh;
     padding: 10px;
 }
 
 .uno{
     background-color: rgb(26, 26, 26);
-    position: fixed;
 }
 
 .due{
     background-color: rgb(14, 14, 49);
+    overflow-y: auto;
+    height: 80%;
 }
 
 .col-xs-2 {
@@ -45,8 +50,6 @@
 }
 
 .footer{
-    position: fixed;
     min-height: 15vh;
-    padding: 10px;
     background-color: rgb(37, 37, 37);
 }
