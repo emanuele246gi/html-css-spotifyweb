@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line{
+    min-height: 15vh;
+    padding: 10px;
+    background-color: rgb(14, 14, 14);
+}
+
+.box{
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.uno{
+    background-color: rgb(26, 26, 26);
+}
+
+.due{
+    background-color: rgb(14, 14, 49);
+}
+
+.col-xs-2 {
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+
+.col-xs-10 {
+    flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+}
+
+.col-xs-12 {
+    flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+}
