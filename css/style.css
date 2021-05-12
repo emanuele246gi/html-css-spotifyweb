@@ -22,6 +22,8 @@
 
 .uno{
     background-color: rgb(26, 26, 26);
+    /* position: fixed;
+    z-index: 1; */
 }
 
 .due{
@@ -41,4 +43,11 @@
 .col-xs-12 {
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
+}
+
+.footer{
+    /* position: fixed; */
+    min-height: 15vh;
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
 }
