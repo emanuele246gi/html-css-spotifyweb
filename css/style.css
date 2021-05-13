@@ -35,11 +35,12 @@ main{
 
 .uno{
     background-color: rgb(26, 26, 26);
+    height: 100%;
 }
 
 .due{
     background-color: rgb(14, 14, 49);
-    height: 80%;
+    height: 100%;
 }
 
 .col-xs-2 {
@@ -50,15 +51,16 @@ main{
 .col-xs-10 {
     flex-basis: calc((100% / 12) * 10);
     max-width: calc((100% / 12) * 10);
+    max-height: 75vh;
 }
 
 .col-xs-12 {
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
+    
 }
 
 .footer{
-    /* height: 100px; */
     min-height: 15vh;
     background-color: rgb(37, 37, 37);
 }
