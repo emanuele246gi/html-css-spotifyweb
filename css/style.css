@@ -35,7 +35,6 @@ main{
 .box{
     height: 75vh;
     padding: 10px;
-    overflow-y: auto;
 }
 
 .uno{
@@ -47,6 +46,8 @@ main{
     background-color: rgb(14, 14, 49);
     height: 100%;
     text-align: center;
+    padding-top: 20px;
+    overflow-y: auto;
 }
 
 button{
@@ -57,7 +58,24 @@ button{
 }
 
 .Recenti{
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.played{
+    background-color: rgb(14, 14, 49);
+    border-right: 10px solid rgb(14, 14, 49);
+}
+
+.img{
+    width: 100%;
+}
+
+.col-xs-1 {
+    flex-basis: calc((100% / 6) * 1);
+    max-width: calc((100% / 6) * 1);
 }
 
 .col-xs-2 {
