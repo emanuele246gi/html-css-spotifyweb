@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    height: calc(100vh - 100px);
+    max-height: 75vh;
 }
 
 .container{
@@ -28,8 +28,9 @@ main{
 }
 
 .box{
-    min-height: 75vh;
+    height: 75vh;
     padding: 10px;
+    overflow-y: auto;
 }
 
 .uno{
@@ -38,7 +39,6 @@ main{
 
 .due{
     background-color: rgb(14, 14, 49);
-    overflow-y: auto;
     height: 80%;
 }
 
@@ -58,7 +58,7 @@ main{
 }
 
 .footer{
-    height: 100px;
+    /* height: 100px; */
     min-height: 15vh;
     background-color: rgb(37, 37, 37);
 }
