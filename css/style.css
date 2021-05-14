@@ -106,7 +106,6 @@ main{
 }
 
 .immagine-miniatura:hover .thumbnail{
-    display: block;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
@@ -125,9 +124,6 @@ main{
     color: transparent;
     padding: 50px;
     display: none;
-}
-
-.fa-play-circle{
 }
 
 .suggerimenti{
@@ -208,6 +204,10 @@ main{
     font-weight: bold;
 }
 
+.nome:hover{
+    text-decoration: underline;
+}
+
 #first{
     position: absolute;
     top: 38px;
@@ -237,4 +237,22 @@ main{
     color: gray;
     margin-top: 43px;
     padding-left: 10px;
+}
+
+.riproduzione{
+    padding-top: 10px;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-step-backward{
+    padding: 5px 25px;
+    font-size: 25px;
+}
+
+.fa-step-forward{
+    padding: 5px 25px;
+    font-size: 25px;
 }
