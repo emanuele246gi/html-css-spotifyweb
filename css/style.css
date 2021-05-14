@@ -134,6 +134,10 @@ img:hover{
     color: rgb(149, 149, 149);
 }
 
+.artisti{
+    border-radius: 100%;
+}
+
 .col-xs-2 {
     flex-basis: calc((100% / 12) * 2);
     max-width: calc((100% / 12) * 2);
@@ -148,7 +152,6 @@ img:hover{
 .col-xs-12 {
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
-    
 }
 
 .footer{
@@ -162,7 +165,52 @@ img:hover{
     position: relative;
 }
 
+.sinistra{
+    width: 255px;
+    position: relative;
+}
+
 .listening{
     width: 60px;
     margin: 17px;
+    margin-top: 25px;
+    border-radius: 10%;
+    vertical-align:middle;
+    line-height: 20px;
+}
+
+.nome{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+#first{
+    position: absolute;
+    top: 38px;
+}
+
+#second{
+    font-size: 12px;
+    position: absolute;
+    top: 55px;
+    color: gray;
+}
+
+.heart, .folder{
+    background-color: rgb(37, 37, 37);
+    border: 0;
+    float: right;
+}
+
+.far{
+    font-size: 20px;
+    color: gray;
+    margin-top: 43px;
+}
+
+.fa-folder{
+    padding-left: 10px;
 }
