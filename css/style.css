@@ -68,6 +68,22 @@ main{
     height: 100%;
 }
 
+.home:hover, .ricerca:hover, .libreria:hover{
+    border-left: 1px solid lime;
+    padding-left: 10px;
+    margin: 0;
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.home, .ricerca, .libreria{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(26, 26, 26);
+    border: 0;
+    margin-bottom: 10px;
+}
+
 .due{
     background-color: rgb(14, 14, 49);
     height: 100%;
