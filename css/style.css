@@ -105,8 +105,29 @@ main{
     width: 100%;
 }
 
-img:hover{
+.immagine-miniatura:hover .thumbnail{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
 
+.immagine-miniatura{
+    position: relative;
+    text-align: center;
+}
+
+.thumbnail{
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    padding: 50px;
+    display: none;
+}
+
+.fa-play-circle{
 }
 
 .suggerimenti{
@@ -205,12 +226,15 @@ img:hover{
     float: right;
 }
 
-.far{
+.fa-heart{
     font-size: 20px;
     color: gray;
     margin-top: 43px;
 }
 
 .fa-folder{
+    font-size: 20px;
+    color: gray;
+    margin-top: 43px;
     padding-left: 10px;
 }
