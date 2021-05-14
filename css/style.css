@@ -289,6 +289,8 @@ main{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 14px;
+    vertical-align: middle;
 }
 
 .barra{
@@ -305,4 +307,25 @@ main{
     max-width: calc((100% / 5) * 1);
     background-color: white;
     border-radius: 20px;
+}
+
+.destra{
+    margin-top: 45px;
+    margin-right: 15px;
+    float: right;
+}
+
+.elenco, .desktop, .audio{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    background-color: rgb(37, 37, 37);
+    border: 0;
+}
+
+.volume{
+    background-color: gray;
+    color: white;
+    vertical-align: middle;
 }
