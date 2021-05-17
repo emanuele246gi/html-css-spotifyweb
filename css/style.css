@@ -66,22 +66,55 @@ main{
 .uno{
     background-color: rgb(26, 26, 26);
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .home:hover, .ricerca:hover, .libreria:hover{
     border-left: 1px solid lime;
-    padding-left: 10px;
+    color: white;
+    padding-left: 12px;
     margin: 0;
     transition: 0.5s;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .home, .ricerca, .libreria{
-    color: white;
-    font-size: 30px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 25px;
     background-color: rgb(26, 26, 26);
     border: 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    display: block;
+    padding-left: 10px;
+}
+
+.playlist-elenco{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.crea{
+    margin-top: 20px;
+    color: gray;
+    font-size: 25px;
+    background-color: rgb(26, 26, 26);
+    border: 0;
+}
+
+ul{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.nome-playlist{
+    color: gray;
+    font-size: 20px;
+    padding-top: 20px;
+    background-color: rgb(26, 26, 26);
+    border: 0;
+    display: block;
 }
 
 .due{
